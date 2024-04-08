@@ -10,9 +10,9 @@ import streamlit_shadcn_ui as ui
 
 class_names = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
 
-with open('actual_labels.pkl', 'rb') as f:
+with open('https://github.com/UmarBalak/TinyVGG-App/blob/main/app/actual_labels.pkl', 'rb') as f:
     actual_labels = pickle.load(f)
-predictions = np.load('predictions.npy')
+predictions = np.load('')
 
 
 # Function to calculate confusion matrix
