@@ -1,0 +1,8 @@
+streamlit
+streamlit-option-menu
+plotly
+scikit-learn
+pandas
+numpy
+pickle
+streamlit-shadcn-ui
