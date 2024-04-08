@@ -12,7 +12,7 @@ class_names = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', '
 
 with open('https://github.com/UmarBalak/TinyVGG-App/blob/main/app/actual_labels.pkl', 'rb') as f:
     actual_labels = pickle.load(f)
-predictions = np.load('')
+predictions = np.load('https://github.com/UmarBalak/TinyVGG-App/blob/main/app/predictions.npy')
 
 
 # Function to calculate confusion matrix
